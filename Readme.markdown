@@ -1,4 +1,4 @@
-##Open Source game engine in javascript
+**Open Source game engine in javascript**
 
 **Demo at [arkpublic](http://www.arkpublic.com/Game)**
 
