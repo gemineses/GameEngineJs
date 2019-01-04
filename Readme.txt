@@ -1,27 +1,31 @@
+Open Source game engine in javascript
+
+Demo at arkpublic.com/Game
+
 File Directory:
-	• Avatar -> Index:
+	â€¢ Avatar -> Index:
 		|-> Contains the canvas and the html squeme
-	• Doc
+	â€¢ Doc
 		|-> Contains Documents to generate visual or code templates
-	• Script
-		• Actions: keys and mouse actions listeners
-		• Data Calls: functions to call web services
-		• Dev Analytics: functions to track basics about performance and functions 
-		• display: functions to paint in the canvas
-		• fx: a union between objects and display, all function to render all the attacks and cinematics effects like fire, water, earth, wind, magic, natural effects in the enviorement, etc...
-		• iaFunctions, artficial intelligence decitions functions to generate the ia results
-		• iaResults, artficial intelligence decitions results
-		• localmap: functions to generate the background map
-		• main: structure about what should be the secuence of commands executed in the game
-		• objects: all the selectibles elements like players, vehicles, weapons, trigger objects, attacks
-		• quests: goes with main.js file, here come the structure for an trigger event
-		• rendering: function to generate movement(just logic, nothing visual)
-		• setup: variables and constants that work in all the entire programming enviorement, like flags, fonts, screen sizes, etc.
-	• Style
-		• CSS
-	• Texture
-		• ground
-		• characters
+	â€¢ Script
+		â€¢ Actions: keys and mouse actions listeners
+		â€¢ Data Calls: functions to call web services
+		â€¢ Dev Analytics: functions to track basics about performance and functions 
+		â€¢ display: functions to paint in the canvas
+		â€¢ fx: a union between objects and display, all function to render all the attacks and cinematics effects like fire, water, earth, wind, magic, natural effects in the enviorement, etc...
+		â€¢ iaFunctions, artficial intelligence decitions functions to generate the ia results
+		â€¢ iaResults, artficial intelligence decitions results
+		â€¢ localmap: functions to generate the background map
+		â€¢ main: structure about what should be the secuence of commands executed in the game
+		â€¢ objects: all the selectibles elements like players, vehicles, weapons, trigger objects, attacks
+		â€¢ quests: goes with main.js file, here come the structure for an trigger event
+		â€¢ rendering: function to generate movement(just logic, nothing visual)
+		â€¢ setup: variables and constants that work in all the entire programming enviorement, like flags, fonts, screen sizes, etc.
+	â€¢ Style
+		â€¢ CSS
+	â€¢ Texture
+		â€¢ ground
+		â€¢ characters
 	
 PATCH:
 
