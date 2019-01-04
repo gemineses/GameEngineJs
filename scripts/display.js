@@ -13,8 +13,9 @@ gameArea = {
 	width : gameAreaSetWidth,
 	height: gameAreaSetHeight,
     start : function() {
-		loadContent();
+		setScreenResolution();
 		/*START Frame per second methods*/
+		loadContent();
 		repeatOften();
     },
 	update : function(){
@@ -22,6 +23,18 @@ gameArea = {
 		paintUI();
 		paintGame();
     }
+}
+function setScreenResolution(){
+	w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+	h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+	gameArea.width = w
+	gameArea.height = h
+	gameArea.canvasBackgroundElement.width = gameArea.width;
+	gameArea.canvasBackgroundElement.height = gameArea.height;
+	gameArea.canvasUIElement.width = gameArea.width;
+	gameArea.canvasUIElement.height = gameArea.height;
+	gameArea.canvasGameElement.width = gameArea.width;
+	gameArea.canvasGameElement.height = gameArea.height;
 }
 
 /*STARTING LOADING ALL PRESETS AT THE FIRST TIME, try to create everything here to get a better perfomance and not generating variables in time of execute*/
